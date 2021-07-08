@@ -11,7 +11,10 @@ export const Benefits = () => {
               const { ima, text, title, id } = item;
 
               return (
-                <div className="benefit-card" key={id}>
+                <div
+                  className={id === 1 ? "benefit-card active" : "benefit-card"}
+                  key={id}
+                >
                   <div className="icon-holder">
                     <img src={ima} alt="icon" />
                   </div>

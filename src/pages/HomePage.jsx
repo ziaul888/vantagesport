@@ -11,11 +11,14 @@ const HomePage = () => {
   return (
     <>
       <NavBar />
-      <Hero />
-      <Benefits />
-      <VideoCounter />
-      <HowItWork />
-      <SignUpForm />
+      <main>
+        <Hero />
+        <Benefits />
+        <VideoCounter />
+        <HowItWork />
+        <SignUpForm />
+      </main>
+
       <Footer />
     </>
   );

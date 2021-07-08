@@ -12,7 +12,9 @@ export const HowItWork = () => {
               const { title1, title2, text, image, id, number } = data;
               return (
                 <div className="col-lg-6" key={id}>
-                  <div className="how-it-card ">
+                  <div
+                    className={id === 1 ? "how-it-card active" : "how-it-card"}
+                  >
                     <div className="card-top">
                       <div className="icon-holder">
                         <img src={image} alt="icon" />

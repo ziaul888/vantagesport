@@ -247,6 +247,7 @@ main {
       border-radius: 7px;
       padding-top: 10.5px;
       padding-bottom: 10.5px;
+      background: $primary;
     }
   }
 
@@ -559,6 +560,7 @@ main {
 
         &.active {
           color: $white;
+          background: $primary;
         }
       }
     }
@@ -596,6 +598,7 @@ main {
           border-radius: 5px;
           padding-top: 1.188rem;
           padding-bottom: 1.188rem;
+          background: $primary;
         }
       }
     }
