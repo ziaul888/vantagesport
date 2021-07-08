@@ -16,7 +16,7 @@ const benefitsData = [
   },
   {
     id: 3,
-    text: "Search by sport, college, position and rating, book easily with one-touch on our app.",
+    text: "Search by sport, college, position and rating, book easily with one-touch on our app..",
     title: "Ease of Use",
     ima: ben3,
   },
